@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'robotobold';
+  src: url('Assets/fonts/Roboto-Bold-webfont.eot');
+  src: url('Assets/fonts/Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+  url('Assets/fonts/Roboto-Bold-webfont.woff2') format('woff2'),
+  url('Assets/fonts/Roboto-Bold-webfont.woff') format('woff'),
+  url('Assets/fonts/Roboto-Bold-webfont.ttf') format('truetype'),
+  url('Assets/fonts/Roboto-Bold-webfont.svg#robotobold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.jumbotron
+{
+  margin: 5%;
+  text-align: center;
+}
+
+#jumbo
+{
+  background-color: rgba(210, 210, 200, 0.8);
+  color : #1e3670;
+
+}
+body
+{
+  background: url("https://images.boredomfiles.com/wp-content/uploads/2014/06/clark-little-wave-photography-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#btn {
+  background-color : #9ab6cc;
+  border-color : #9ab6cc;
+  color : #1e3670;
+}
+
+#btn:hover
+{
+  background-color: #1e3670;
+  transition: all 0.5s ease-out;
+  color : #9ab6cc;
+}
+
+*
+{
+  font-family: 'robotobold', Arial, Helvetica;
+
+}
